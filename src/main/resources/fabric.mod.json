@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabtip",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "FabTip",
+  "description": "A fabric version of the widely used mod ModToolTip",
   "authors": [
-    "Me!"
+    "Redd56, Kwright02"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Redd56/ToolTipFabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/fabtip/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.redd56.fabtip.Main"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fabtip.mixins.json"
   ],
 
   "depends": {
